@@ -47,7 +47,7 @@ export default function Chat() {
         content: msg.text
       }));
 
-      const res = await axios.post('http://localhost:4000/chat', {
+      const res = await axios.post('https://chat-demo-bugv.onrender.com/chat', {
         messages: gptMessages
       });
 
